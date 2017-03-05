@@ -1,0 +1,42 @@
+cd manifoldcore
+./build
+cd ../manifoldcoretf
+./build
+cd ../manifoldcoretfgpu
+./build
+cd ../rtndfcore
+./build
+cd ../rtndfcoretf
+./build
+cd ../rtndfcoretfgpu
+./build
+cd ../rtndfcoretfcv2
+./build
+cd ../rtndfcoretfgpucv2
+./build
+cd ../manifoldnexus
+./build
+cd ../manifoldmanager
+./build
+cd ../facerec
+./build
+cd ../facerectrain
+./build
+cd ../imageproc
+./build
+cd ../imageprocgpu
+./build
+cd ../modet
+./build
+cd ../recognize
+./build
+cd ../recognizegpu
+./build
+cd ../speechdecode
+./build
+cd ../avview
+./build
+cd ../uvccam
+./build
+cd ../sensorview
+./build
