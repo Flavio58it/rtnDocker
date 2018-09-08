@@ -31,6 +31,12 @@ RUN make install
 RUN python setup.py build
 RUN python setup.py install
 
+WORKDIR /
+RUN mkdir .config
+RUN chmod a+rw .config
+
+
+
 
 
 

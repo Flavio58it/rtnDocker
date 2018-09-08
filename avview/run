@@ -1,6 +1,6 @@
 docker run --rm --net=host --name avview \
-    -u $UID \
-    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -u="$UID" \
     -e="DISPLAY" \
-    -v $HOME/.config/Manifold:/.config/Manifold\
+    -v "/tmp/.X11-unix:/tmp/.X11-unix" \
+    -v="$HOME/.config/Manifold:/.config/Manifold" \
     rtndocker/avview $@
